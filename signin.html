@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="images" href="images/favicon.png">
+  <title>Sign In</title>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow"/>
+  <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content"/>
+  <meta name="author" content="Codrops" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style1.css" />
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+
+
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/ekko-lightbox.min.css">
+  <!--    <link rel="stylesheet" type="text/css" href="css/ekko-lightbox-dark.css"> -->
+  <link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/sign.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+
+
+div.transbox {
+          margin: 30px;
+          background-color: #000000;
+          border: 1px solid black;
+          opacity: 0.7;
+          filter: alpha(opacity=60); }
+
+
+
+</style>
+
+<body id="page">
+  <ul class="cb-slideshow">
+      <li><span>Image 01</span></li>
+      <li><span>Image 02</span></li>
+      <li><span>Image 03</span></li>
+      <li><span>Image 04</span></li>
+      <li><span>Image 05</span></li>
+      <li><span>Image 06</span></li>
+  </ul>
+</body>
+
+<body>
+  <header id="top">
+    <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <br>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-left">
+                        <li ><a href="index.html">Home</a></li>
+                        <li><a href="signup.html">Sign up</a></li>
+                        <li class="active"><a href="signin.html">Login</a></li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+  </header>
+
+  <br>
+
+  <div class="wrapper">
+    <form id="form" class="well form-horizontal " action="" method="POST" role="form">
+      <center>
+<br><br><br><br><br><br><br><br><br>
+        <div class="form">
+          <form class="login-form">
+            <img src="images\05.png" height="80" width="130">
+            <center><h1>Sign in Form</h1></center><br>
+            <input type="text" placeholder="Username" id="username" name="username" maxlength="12">
+            <input type="password" placeholder="Password" id="password" name="password" maxlength="12">
+            <br><br>
+          <button type="submit" id="signin" name="signin">Login</button>
+              <br><br><br><br>
+          </form>
+        </div>
+      </form>
+    </div>
+
+    <div id="err" style="display:none" class="alert alert-danger alert-dismissable fade in form">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+      <strong>Incorrect Username or Password</strong><br>
+      <span style="color:blue;font-weight:bold" id="summary"></span>
+    </div>
+    <div id="suc" style="display:none" class="alert alert-success alert-dismissable fade in form">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+      <strong>Login Successful</strong>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/cache.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/signin.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="images" href="images/favicon.png">
+  <title>Information</title>
+
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/ekko-lightbox.min.css">
+  <link rel="stylesheet" type="text/css" href="css/ekko-lightbox-dark.css">
+  <link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<style>
+
+body {
+    background-image: url('https://www.walldevil.com/wallpapers/w02/604628-black-dark-forms-geometry-minimalistic-triangles.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+</style>
+
+<body>
+  <header id="top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 site-title">
+          <h1><font color="white">User Information</font></h1>
+  <a class="navbar-brand" href="#"><img src="images\05.png"height="70" width="130"></a>
+        </div>
+        <div class="col-lg-8 col-md-12 main-menu">
+          <nav class="navbar navbar-light">
+            <ul class="nav navbar-nav single-page-nav">
+              <li id="nav-logout-btn"><a class="nav-link" href="index.html" onclick="deleteCookie()"><img src="images/icon.png" style="height: 50px; width: 50px;"><font color="white">&nbsp&nbspWelcome Back&nbsp|&nbspLog out</font></a></li>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="sigma-hr">
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container-fluid" id="showspace">
+  <div class="container-fluid">
+    <legend><b><font color="white"><font color="white">User Information</font></b></legend>
+    <form class="container-fluid" action="#" method="post">
+      <div class="container-fluid">
+        <label for="username"><b><font color="white">Username</font></b></label>
+        <p class="form-control-static username " id="username" placeholder=""></p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="sigma-hr">
+        </div>
+      </div>
+      <div class="container-fluid">
+        <label for="fname"><b><font color="white">First name</font></b></label>
+        <p class="form-control-static" id="fname" placeholder=""></p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="sigma-hr">
+        </div>
+      </div>
+      <div class="container-fluid">
+        <label for="lname"><b><font color="white">Last name</font></b></label>
+        <p class="form-control-static" id="lname" placeholder=""></p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="sigma-hr">
+        </div>
+      </div>
+      <div class="container-fluid">
+        <label for="email"><b><font color="white">Email</font></b></label>
+        <p class="form-control-static" id="email" placeholder=""></p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="sigma-hr">
+        </div>
+      </div>
+      <div class="container-fluid">
+        <label for="tel"><b><font color="white">Telephone</font></b></label>
+        <p class="form-control-static" id="tel" placeholder=""></p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="sigma-hr">
+        </div>
+      </div>
+      <center><button type="button" id="edituser" name="button" class="btn btn-primary"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbspEdit Information</button>
+        <button type="button" id="editpassword" name="button" class="btn btn-warning"><i class="fa fa-key" aria-hidden="true"></i>&nbspEdit Password</button></center>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/viewuser.js"></script>
+</body>
+</html>
